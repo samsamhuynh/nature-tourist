@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #fff;
+  color: #5a5a5a;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  /* mặc định là 16px */
+  text-rendering: optimizeLegibility;
+}
+
+/* ----------------------------------- */
+/* ------------HEADER-------------- */
+.header {
+  background-image: url("../img/header_img.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed; /* background chuyển động theo scroll */
+}
+/* LOGO */
+.logo {
+  width: 300px;
+  float: left;
+  margin: -55px 0 0 20px;
+}
+
+.header__navbar-list {
+  float: right;
+}
+
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.row {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  color: #fff;
+}
