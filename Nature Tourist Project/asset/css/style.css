@@ -1,3 +1,4 @@
+/* DEFAULT SETUP */
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +17,12 @@ html {
 /* ----------------------------------- */
 /* ------------HEADER-------------- */
 .header {
-  background-image: url("../img/header_img.jpeg");
+  background-image: linear-gradient(
+      45deg,
+      rgba(142, 193, 226, 0.8),
+      rgba(104, 119, 100, 0.8)
+    ),
+    url("../img/header_img.jpeg");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -26,22 +32,51 @@ html {
 .logo {
   width: 300px;
   float: left;
-  margin: -55px 0 0 20px;
+  margin-top: -55px;
 }
 
 .header__navbar-list {
   float: right;
+  list-style: none;
+  margin: 50px 50px 0 0;
 }
 
-.clearfix::after {
-  content: " ";
-  display: table;
-  clear: both;
+.header__navbar-list li {
+  display: inline-block;
+  margin-right: 30px;
 }
 
-.row {
-  margin: auto;
-  width: 50%;
+.header__navbar-list li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 110%;
+  font-weight: 700;
+  padding: 3px 0;
+  transition: border-bottom 0.3s;
+}
+
+.header__navbar-list li a:hover,
+.header__navbar-list li a:active {
+  border-bottom: 2px solid #f2f6f8;
+}
+
+.header-main-box {
+  position: absolute;
+  /* top: 50%; */
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.header-main-box h1 {
+  font-size: 171%;
+  line-height: 124%;
   color: #fff;
+}
+
+.header-main-box h2 {
+  font-size: 90%;
+  font-weight: 400;
+  color: #000;
+  margin: 10px 0 56px 0;
 }

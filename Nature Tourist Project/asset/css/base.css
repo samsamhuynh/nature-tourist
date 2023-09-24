@@ -1,0 +1,36 @@
+:root {
+  --button-color: #7ed449;
+  --button-hover: #27b270;
+  --box-shadow: 0 1px 2px rgba(73, 73, 73, 0.399);
+}
+
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.row {
+  margin: 0 auto;
+  max-width: 50%;
+}
+
+/* Nút */
+.btn {
+  text-decoration: none;
+  color: #fff;
+  background-color: var(--button-color);
+  padding: 15px 30px;
+  margin: 0 10px;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  /* width: 190px;
+    display: inline-block; */
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: var(--button-hover);
+}
