@@ -113,7 +113,6 @@ html {
 }
 
 .picture-title {
-  /* position: absolute; */
   margin-top: 10px;
   max-width: 165px;
   max-height: 165px;
@@ -130,8 +129,6 @@ html {
 
 /* ------------Plans SECTION-------------- */
 .products-section {
-  display: table;
-  width: 100%;
   background-color: #f2f6f8;
 }
 
@@ -140,8 +137,6 @@ html {
 }
 
 .product-box {
-  position: relative;
-  display: table-cell;
   background-color: #f7f9fb;
   width: 90%;
   height: 395px;
@@ -169,22 +164,6 @@ html {
   align-items: center;
 }
 
-.product-btn {
-  position: absolute;
-  bottom: 30px;
-  /* display: flex;
-  justify-content: space-around;
-  align-items: center; */
-  margin: 0 auto;
-}
-
-.see-more {
-  color: rgb(1, 130, 250);
-  margin-left: 10px;
-  text-decoration: none;
-  font-size: 80%;
-}
-
-.see-more:hover {
-  text-decoration: underline;
+.product-box .btn {
+  margin-left: 28%;
 }
