@@ -14,6 +14,10 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 /* ----------------------------------- */
 /* ------------HEADER-------------- */
 .header {
@@ -75,7 +79,7 @@ html {
   color: #fff;
 }
 
-.header-main-box h2 {
+.header-main-box h4 {
   font-size: 90%;
   font-weight: 400;
   color: #000;
@@ -189,7 +193,7 @@ html {
 blockquote {
   width: 95%;
   position: relative;
-  font-size: italic;
+  font-style: italic;
   line-height: 140%;
   color: #f7f9fb;
 }
