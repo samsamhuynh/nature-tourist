@@ -16,34 +16,36 @@
     <link rel="stylesheet" href="./asset/css/style.css" />
     <link rel="stylesheet" href="./asset/css/grid.css" />
     <link rel="stylesheet" href="./asset/css/queries.css" />
-    <title>Document</title>
+    <title>Nature Tourist</title>
   </head>
 
   <body>
     <!-- PHẦN ĐẦU -->
-    <header class="header">
+    <header id="home" class="header">
       <!-- Logo -->
-      <a href="#"
-        ><img
-          class="logo"
-          src="./asset/img/Travel_and_Tourism_Logo.png"
-          alt="logo"
-      /></a>
+      <nav>
+        <a href="#home"
+          ><img
+            class="logo"
+            src="./asset/img/Travel_and_Tourism_Logo.png"
+            alt="logo"
+        /></a>
 
-      <ul class="header__navbar-list">
-        <li>
-          <a href="#">Explore</a>
-        </li>
-        <li>
-          <a href="#">Tour Plannings</a>
-        </li>
-        <li>
-          <a href="#">About us</a>
-        </li>
-        <li>
-          <a href="#">Contact</a>
-        </li>
-      </ul>
+        <ul class="main-nav">
+          <li>
+            <a href="#testimonials">Explore</a>
+          </li>
+          <li>
+            <a href="#product">Tour Plannings</a>
+          </li>
+          <li>
+            <a href="#about">About us</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
 
       <div class="clearfix"></div>
 
@@ -55,8 +57,8 @@
             but a new way of looking.
           </h1>
           <h4>50% off the regular plan prices</h4>
-          <a href="#" class="btn">Book a plan</a>
-          <a href="#" class="btn">I need to advice</a>
+          <a href="#product" class="btn">Book a plan</a>
+          <a href="#contact" class="btn">I need to advice</a>
         </div>
       </div>
     </header>
@@ -64,7 +66,7 @@
     <!-- --------------------------------------------------------- -->
     <!-- PHẦN THÂN-->
     <!-- Section -->
-    <section class="about-section">
+    <section id="about" class="about-section">
       <div class="row">
         <h2>About Us</h2>
         <p class="p-long">
@@ -111,7 +113,7 @@
       </div>
     </section>
 
-    <section class="products-section">
+    <section id="product" class="products-section">
       <div class="row">
         <h2>Plans</h2>
       </div>
@@ -182,7 +184,7 @@
       </div>
     </section>
 
-    <section class="testimonials-section">
+    <section id="testimonials" class="testimonials-section">
       <div class="row">
         <h2>Straight from our passengers</h2>
       </div>
@@ -217,7 +219,7 @@
       </div>
     </section>
 
-    <section class="contact-section">
+    <section id="contact" class="contact-section">
       <div class="row">
         <div class="col span-1-of-3">
           <ul class="information">
@@ -288,6 +290,15 @@
     <footer>
       <p>Copyright © 2023 by NATURE TOURIST</p>
     </footer>
-    <script src="main.js"></script>
+
+    <!-- --------------------------------------------------------- -->
+    <!-- Javascript-->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+    <script src="asset/js/jquery.waypoints.min.js"></script>
+    <script src="asset/js/main.js"></script>
   </body>
 </html>

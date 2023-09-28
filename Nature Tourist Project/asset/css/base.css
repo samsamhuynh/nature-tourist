@@ -1,6 +1,6 @@
 :root {
-  --text-title-color: #31708e;
-  --text-body-color: #687864;
+  --text-title-color: #01abfc;
+  --text-body-color: #013141;
   --button-color: #7ed449;
   --button-hover: #27b270;
   --box-shadow: 0 1px 2px rgba(73, 73, 73, 0.399);
@@ -58,7 +58,7 @@ section {
   display: block;
   width: 150px;
   height: 2px;
-  background-color: rgba(49, 112, 143, 0.5);
+  background-color: rgba(111, 217, 254, 0.5);
   margin: 0 auto;
   margin-top: 5px;
 }
@@ -68,7 +68,7 @@ section {
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
-  background-color: #5085a5;
+  background-color: #01587c;
   color: #fff;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
@@ -86,7 +86,7 @@ section {
 }
 
 .check-icon {
-  color: #5085a5;
+  color: #01abfc;
   font-size: 145%;
   margin-right: 13px;
 }
