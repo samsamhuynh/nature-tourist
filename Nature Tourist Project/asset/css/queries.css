@@ -16,16 +16,16 @@
 /* Small tablet to big tablet from 768x to 1023px */
 @media only screen and (max-width: 1023px) {
   .logo {
-    width: 250px;
+    width: 180px;
     margin-left: 40px;
   }
 
-  .header__navbar-list {
-    margin-top: 40px;
-    margin-right: 15px;
+  .main-nav {
+    margin-top: 60px;
+    margin-right: 35px;
   }
 
-  .header__navbar-list li {
+  .main-nav li {
     margin-right: 10px;
   }
 
@@ -69,13 +69,23 @@
     width: 100%;
   }
 
-  .header__navbar-list {
-    visibility: hidden;
+  .main-nav {
+    display: none;
+    margin-top: 100px;
+  }
+
+  .mobile-nav-icon {
+    margin-top: 35px;
+    display: block;
+  }
+
+  .sticky .main-nav {
+    margin-top: 130px;
   }
 
   .logo {
     width: 180px;
-    margin-left: 3%;
+    margin-left: 8%;
   }
 
   .row h1 {
@@ -163,6 +173,19 @@
   }
 }
 
+@media only screen and (max-width: 620px) {
+  .main-nav {
+    display: none;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .mobile-nav-icon {
+    right: 45px;
+  }
+}
+
 /* Small phones from 0 to 480px; */
 @media only screen and (max-width: 480px) {
   html {
@@ -185,5 +208,9 @@
   form {
     width: 90%;
     margin-left: 5%;
+  }
+
+  .mobile-nav-icon {
+    top: 20px;
   }
 }
